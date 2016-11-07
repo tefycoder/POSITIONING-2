@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.rojo {
+    width: 240px;
+    height: 240px;
+    background: #ed5050;
+    position: static;
+}
+.morado {
+    width: 120px;
+    height: 120px;
+    background: purple;
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+.amarillo {
+    width: 60px;
+    height: 60px;
+    background: yellow;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+    padding: 8px;
+    border: 2px solid;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: fixed;
+    margin-left: 300px;
+    
+}
+a:hover {
+    color: crimson;
+    background-color: black;
+}
